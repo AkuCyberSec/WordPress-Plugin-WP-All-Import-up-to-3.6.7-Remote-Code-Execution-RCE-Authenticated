@@ -16,7 +16,7 @@ This makes it possible for authenticated attackers, with administrator level per
 
 ## HOW THE EXPLOIT WORKS
 ### 1. Prepare the zip file:
-  - create a PHP file with your payload (e.g. rerverse shell)
+  - create a PHP file with your payload (e.g. reverse shell)
   - set the variable "payload_file_name" with the name of this file (e.g. "shell.php")
   - create a zip file with the payload
   - set the variable "zip_file_to_upload" with the PATH of this file (e.g. "/root/shell.zip")
