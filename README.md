@@ -49,7 +49,7 @@ This makes it possible for authenticated attackers, with administrator level per
       Since you can use a custom payload, you may want to activate it using an HTTP POST request instead of a HTTP GET request, or you may want to pass parameters
 
 ## WHY DOES THE EXPLOIT DISABLE THE SECURE MODE?
-According to the PoC of this vulnerability provided by WPSCAN, we should be able to retrieve the uploaded files by visiting the "MAnaged Imports page".
+According to the PoC of this vulnerability provided by WPSCAN, we should be able to retrieve the uploaded files by visiting the "Managed Imports page".
 
 I don't know why but, after the upload of any file, I couldn't see the uploaded file in that page (maybe the Pro version is required?).
 
