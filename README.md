@@ -57,6 +57,13 @@ I had to find a workaround and so I did, by exploiting this option.
 
 WPSCAN Page: https://wpscan.com/vulnerability/578093db-a025-4148-8c4b-ec2df31743f7
 
+
+### UPDATE November 06 2022
+While testing, I've noticed that I was uploading a bad XML file and that's the reason why the file did not show up in the "Managed Imports page"
+
+Anyway, this approach of disabling the secure mode is a bit more "stealth" as the upload doesn't show up in the admin page.
+If you want to see the upload on the admin page, it takes more steps.
+
 ## ANY PROBLEM WITH THE EXPLOIT?
 In order for the exploit to work please consider the following:
 1. check the target_url and the admin credentials
